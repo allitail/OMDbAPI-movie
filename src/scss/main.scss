@@ -1,0 +1,36 @@
+// $color--black: #000;
+// $color--white: #fff;
+
+// body {
+//   background-color: $color--black;
+//   h1 { 
+//     color: $color--white;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//   }
+// }
+
+$container-max-widths: (
+    sm: 540px,
+    md: 704px,
+    lg: 924px,
+    xl: 1140px,
+    xxl: 1364px
+);
+
+// Required
+@import "../../node_modules/bootstrap/scss/functions";
+
+// Default variable overrides
+$primary: #FDC000;
+
+// Required
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins";
+
+// Bootstrap and its default variables
+
+
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
